@@ -1,0 +1,56 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 12px; /* Add equal padding */
+}
+.bodyarea{
+    padding: 12px;
+
+}
+ 
+table th, table td {
+    text-align: left;
+    padding: 16px;
+    border: 1px solid #ddd;
+}
+ 
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+ 
+table tr:hover {
+    background-color: #ddd;
+}
+ 
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.addbutton{
+    background-color: #4CAF50; /* Custom color (blue in this example) */
+    border: none;
+    border-radius: 20px; /* Adjust the value to control roundness */
+    padding: 10px 20px ; /* Add padding for better appearance */
+    color: white; /* Text color */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.modal{
+
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:500px;height: 500px;
+    border: 1px solid #ddd;
+    padding: 12px;  
+}
+.delete2{
+background-color: #e70c0c;color: #ffffff;
+    margin-left: 8px ;
+    
+}
